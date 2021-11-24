@@ -4,7 +4,7 @@ import { Section } from '../Section';
 export const Intro = () => {
   return (
     <Section sectionName="intro" headerLevel={1}>
-      <Grid>
+      <Grid gridName="intro">
         <img src="./assets/img/bookshelf.jpeg" alt="Wooden bookshelf with old rare books" />
         <div className="intro-text-box">
           <p>

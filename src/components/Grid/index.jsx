@@ -1,9 +1,10 @@
 import P from 'prop-types';
 
-export const Grid = ({ children }) => {
-  return <div className="intro-grid grid">{children}</div>;
+export const Grid = ({ gridName, children }) => {
+  return <div className={`${gridName}-grid grid`}>{children}</div>;
 };
 
 Grid.propTypes = {
   children: P.node.isRequired,
+  gridName: P.string.isRequired,
 };
