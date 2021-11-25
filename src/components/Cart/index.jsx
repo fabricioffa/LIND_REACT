@@ -1,7 +1,9 @@
+import cartImg from '../../imgs/cart-modified.png';
+
 export const Cart = () => {
   return (
     <a className="cart-a" href="#">
-      <img className="cart" src="./assets/img/cart-modified.png" alt="Shopping cart" />
+      <img className="cart" src={cartImg} alt="Shopping cart" />
     </a>
   );
 };

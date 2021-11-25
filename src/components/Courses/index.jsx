@@ -3,6 +3,8 @@ import { Product } from '../Product';
 import { Section } from '../Section';
 import { SlideBtn } from '../SlideBtn';
 
+import bookImg from '../../imgs/book-pile.jpeg';
+
 export const Courses = () => {
   return (
     <Section sectionName="courses" headerLevel={2}>
@@ -10,42 +12,36 @@ export const Courses = () => {
       <Grid gridName="courses">
         <Product
           name="Literature and History"
-          imgSrc="../../../public/img/book-pile.jpeg"
+          imgSrc={bookImg}
           imgAlt="Grammar course image"
           price="$ 50,00"
           link="./product.html"
         />
-        <Product
-          name="Poetry"
-          imgSrc="../../../public/img/book-pile.jpeg"
-          imgAlt="Grammar course image"
-          price="$ 50,00"
-          link="./product.html"
-        />
+        <Product name="Poetry" imgSrc={bookImg} imgAlt="Grammar course image" price="$ 50,00" link="./product.html" />
         <Product
           name="Vocabulary"
-          imgSrc="../../../public/img/book-pile.jpeg"
+          imgSrc={bookImg}
           imgAlt="Grammar course image"
           price="$ 50,00"
           link="./product.html"
         />
         <Product
           name="Grammar: Begginer"
-          imgSrc="../../../public/img/book-pile.jpeg"
+          imgSrc={bookImg}
           imgAlt="Grammar course image"
           price="$ 50,00"
           link="./product.html"
         />
         <Product
           name="Grammar: Intermediary"
-          imgSrc="../../../public/img/book-pile.jpeg"
+          imgSrc={bookImg}
           imgAlt="Grammar course image"
           price="$ 50,00"
           link="./product.html"
         />
         <Product
           name="Grammar: Advanced"
-          imgSrc="../../../public/img/book-pile.jpeg"
+          imgSrc={bookImg}
           imgAlt="Grammar course image"
           price="$ 50,00"
           link="./product.html"
