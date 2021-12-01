@@ -3,7 +3,7 @@ import P from 'prop-types';
 export const Header = ({ text, level }) => {
   switch (level) {
     case 1:
-      return <h1 className="header">{text}</h1>;
+      return <h1 className="header">Latin is Not Dead</h1>;
     case 2:
       return <h2 className="header">{text}</h2>;
     case 3:

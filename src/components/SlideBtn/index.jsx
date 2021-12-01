@@ -6,6 +6,7 @@ import P from 'prop-types';
 
 export const SlideBtn = ({ direction }) => {
   if (direction === 'right') return <FontAwesomeIcon icon={faCaretRight} />;
+
   return <FontAwesomeIcon icon={faCaretLeft} />;
 };
 

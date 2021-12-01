@@ -5,7 +5,7 @@ import { SlideBtn } from '../SlideBtn';
 
 export const Podcasts = () => {
   return (
-    <Section sectionName="podcasts" headerLevel={2}>
+    <Section sectionName="podcast" headerLevel={2}>
       <SlideBtn direction="right" />
       <Grid gridName="podcasts">
         <PodcastsList link="#" name="Begginer" />
